@@ -24,7 +24,6 @@ class Dictionary1:
         del self._d[key]
         return v
 
-
 class Dictionary2:
 
     def __init__(self):
