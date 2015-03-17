@@ -61,7 +61,6 @@ def delete(name, pb_name):
 if __name__ == '__main__':
     args = sys.argv[:]
     script = args.pop(0) # name of the script
-    print(type(script))
     if len(args) == 2:
         command = 'lookup'
     else:
